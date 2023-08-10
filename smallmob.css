@@ -1,0 +1,73 @@
+.top ul li a {
+    margin: 2px -12px;
+    font-size: 0.8rem;
+}
+.symbol ul li a img{
+    padding: 6px 3px;
+    height: 25px;
+    width: 25px;
+}
+.home h1{
+    font-size: 2.5rem;
+}
+.top li{
+    margin: 12px 7px;
+}
+.photo img{
+    height: 204px;
+    width: 241px;
+}
+#headab{
+    margin: 117px 21px 3px 21px;
+    font-size: 2.2rem;
+}
+.aboutwrite{
+    margin: 23px -113px 3px 52px;
+}
+.aboutwrite h1{
+    font-size: 2.2rem;
+}
+.aboutwrite p{
+    font-size: 1rem;
+}
+.edu{
+    margin: 39px 21px;
+    font-size: 2.2rem;
+}
+.education::before{
+    margin-top: -65px;
+}
+.High{
+    padding: 0px;
+    width: 315px;
+    height: 411px;
+}
+.High .schoollogo a img{
+    padding-right: 0px;
+}
+.highlogoname {
+    flex-direction: column;
+    text-align: center;
+}
+.collogoname{
+    flex-direction: column;
+    text-align: center;
+}
+.college{
+    padding: 0px;
+    width: 315px;
+    height: 411px;
+}
+.conhead{
+    margin: 40px 26px;
+    font-size: 2.2rem;
+}
+.contact::before{
+    margin-top: -172px;
+}
+.college .collegelogo a img {
+    padding-right: 0px;
+}
+.mil{
+    width: 244px;
+}

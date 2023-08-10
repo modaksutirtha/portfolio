@@ -1,0 +1,485 @@
+html{
+    scroll-behavior: smooth;
+}
+.top {
+    display: flex;
+    text-decoration: none;
+    margin: 3px 3px 3px 3px;
+    top: 3px;
+    left: 0;
+    right: 0;
+    position: sticky;
+    /* background-color: black;
+    opacity: 0.8; */
+    /* border: 2px solid white;
+    border-radius: 21px; */
+}
+/* .mainportnav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+.portnav {
+    text-decoration: none;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+.top ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    font-family: 'Bree Serif', serif;
+    font-weight: 30;
+    padding: 2px 8px;
+    margin: 2px 2px;
+}
+
+.top ul li a:hover {
+    background-color: white;
+    border-radius: 9px;
+    color: #502f2f;
+
+}
+
+.items {
+    text-decoration: none;
+}
+
+.top li {
+    margin: 12px 14px;
+    padding: 3px 3px 3px 3px;
+    z-index: 3;
+}
+
+.top ul {
+    color: #502f2f;
+    display: flex;
+    border-radius: 23px;
+    z-index: 2;
+}
+
+.logo {
+    margin: 3px 3px 3px 46px;
+    padding: 3px 14px;
+    opacity: 1.1;
+}
+
+.logo img {
+    height: 60px;
+    width: 60px;
+    border-radius: 16px;
+    /* margin-right: 5px;
+    padding-right: 5px; */
+}
+
+.logo img:hover {
+    /* height: 61px;
+    width: 61px; */
+    /* border: 4px solid white; */
+    border-radius: 16px;
+}
+
+li {
+    list-style: none;
+}
+
+
+
+/* ---------------------------------------------------------------------------------------------------------- */
+
+
+.two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.two::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 856px;
+    /* height: 3000px; */
+    background: url(../portimage/backgrnd2.jpg) no-repeat center center/cover;
+    z-index: -1;
+    opacity: 0.8;
+    margin: 93px 3px 3px 3px;
+}
+
+.home {
+    margin: 24px 2px 2px 2px;
+    padding: 3px 2px 2px 2px;
+}
+
+.home h1 {
+    font-size: 4rem;
+    font-family: 'Bree Serif', serif;
+    color: #502f2f;
+    margin: 16px 2px;
+    padding: 3px 2px;
+    text-shadow: 6px 3px #e58484;
+    text-align: center;
+}
+/* .main{
+    display: flex;
+    flex-direction: column;
+} */
+.home h1:hover {
+    /* background-color: white; */
+    color:#a01313 ;
+}
+
+.home h2 {
+    display: flex;
+    font-family: 'Bree Serif', serif;
+    color: #502f2f;
+    align-items: center;
+    justify-content: center;
+    margin: 3px 3px;
+    padding: 3px 3px;
+    text-align: center;
+}
+
+.symbol ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3px 48px 2px 2px;
+}
+
+.symbol ul li a img {
+    padding: 6px 24px;
+    margin: 3px 3px;
+    height: 38px;
+    width: 38px;
+}
+
+.symbol ul li a img:hover {
+    background-color: rgb(255, 255, 255);
+    border-radius: 150px;
+}
+
+.image img {
+    /* background-color: green; */
+    /* width: 250px;
+    height: 250px; */
+    /* position: relative;
+    
+    animation-name: nayan;
+    animation-duration: 3s;
+    animation-iteration-count: infinite; */
+    /* animation-duration: 2s; */
+    /* animation-iteration-count: infinite; */
+    /* animation-direction: forward; */
+    
+}
+/* @keyframes nayan {
+    from{
+        margin-top: 0px;
+
+    }
+    to{
+        margin-top: 15px;
+
+    }
+    
+} */
+
+.image img {
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center; */
+    height: 55px;
+    width: 55px;
+    /* margin: 99px 3px 3px 736px; */
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 75px;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------- */
+
+.about {
+    display: flex;
+    margin: -141px 3px 3px -5px;
+}
+
+.about::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1000px;
+    background: url(../portimage/aboutback.jpg) no-repeat center center/cover;
+    z-index: -1;
+    padding: 3px 3px 3px 3px;
+    margin: 64px 3px 3px -8px;
+    opacity: 0.99;
+
+}
+
+#headab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 162px 233px 3px 233px;
+    color: white;
+    font-family: 'Bree Serif', serif;
+    font-size: 2.7rem;
+    border: solid 3px white;
+    border-radius: 23px;
+    padding: 10px 11px 10px 3px;
+    background-color: grey;
+}
+#headab:hover{
+    box-shadow: 5px 5px 5px 5px white;
+
+}
+.photo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.photo img {
+    padding: 3px 3px 3px 3px;
+    margin: 286px 3px 3px 103px;
+    height: 283px;
+    width: 339px;
+    border: 3px solid white;
+    border-radius: 189px;
+    /* box-shadow: 2px 3px white; */
+}
+.photo img:hover{
+    /* box-shadow: 0px 7px 7px 11px white;  */
+}
+.aboutwritemain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aboutwrite {
+    float: right;
+    padding: 46px;
+    margin: 206px 57px 3px 267px;
+    color: white;
+    background-color: rgb(46, 45, 45);
+    border-radius: 23px;
+    box-shadow: 7px 7px white;
+}
+.aboutwrite:hover{
+    box-shadow: 0px 7px 7px 11px white; 
+}
+.aboutwrite h1 {
+    font-family: 'Bree Serif', serif;
+    font-size: 2.6rem;
+}
+
+.aboutwrite p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.4rem;
+}
+
+/* ---------------------------------------------------------------------------------------------------------- */
+
+.education{
+    display: flex;
+    /* border: 2px solid black; */
+    justify-content: center;
+    align-items: center;
+}
+.education h1 a{
+    text-decoration: none;
+    color: white;
+}
+.education a:hover{
+    /* text-decoration: underline; */
+    color: #f2b3b3;;
+}
+.edu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: 'Bree Serif', serif;
+    font-size: 2.7rem;
+    border: solid 3px white;
+    border-radius: 23px;
+    padding: 10px 11px 10px 3px;
+    background-color: grey;
+    margin: 39px 214px;
+}
+.edu:hover{
+    box-shadow: 5px 5px 5px 5px white;
+}
+.education::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(../portimage/aboutback.jpg) no-repeat center center/cover;
+    z-index: -1;
+    /* padding: 3px 3px 3px 3px;
+    margin: 64px 3px 3px -8px; */
+    opacity: 0.99;
+}
+.High{
+    /* border: 2px solid red; */
+    margin: 3px 137px 3px 3px;
+    padding:27px;
+    width: 436px;
+    height: 279px;
+    color: white;
+    background-color: rgb(46, 45, 45);
+    border-radius: 23px;
+    box-shadow: 5px 5px white;
+}
+.High:hover{
+    box-shadow: 0px 7px 7px 11px white;
+}
+.High p{
+    font-size: 1.3rem;
+    margin-top: 35px;
+    margin-left: 31px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.High .schoollogo a img{
+    height: 100px;
+    width: 100px;
+    padding-right: 51px;
+}
+.highlogoname{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px 3px;
+    font-family: 'Bree Serif', serif;
+}
+.college{
+    /* border: 2px solid red; */
+    margin: 3px 3px 3px 3px;
+    padding:27px;
+    width: 436px;
+    height: 279px;
+    color: white;
+    background-color: rgb(46, 45, 45);
+    border-radius: 23px;
+    box-shadow: 5px 5px white;
+
+}
+.college:hover{
+    box-shadow: 0px 7px 7px 11px white;
+}
+.college p{
+    padding: 5px 3px 3px 3px;
+    font-size: 1.3rem;
+    margin-top: -10px;
+    margin-left: 38px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.college .collegelogo a img{
+    height: 100px;
+    width: 100px;
+    padding-right: 51px;
+    padding-top: 3px;
+}
+.collogoname{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px 3px;
+    font-family: 'Bree Serif', serif;
+}
+
+
+/* ------------------------------------------------------------------------------------------------------ */
+
+.contact{
+    font-family: 'Bree Serif', serif;
+    color: white;
+}
+.contact::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(../portimage/aboutback.jpg) no-repeat center center/cover;
+    z-index: -1;
+    /* padding: 3px 3px 3px 3px;
+    margin: 64px 3px 3px -8px; */
+    opacity: 0.99;
+    margin-left: -8px;
+}
+.conhead{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Bree Serif', serif;
+    background-color: grey;
+    font-size: 2.7rem;
+    border-radius: 23px;
+    margin: 40px 214px;
+    border: solid white 3px;
+    padding: 10px 11px 10px 3px;
+   
+}
+.conhead:hover{
+    box-shadow: 5px 5px 5px 5px white;
+
+}
+.uptwo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px 3px 3px 3px;
+    margin: 35px 3px 3px 3px;
+}
+.inimg a img{
+    height: 100px;
+    width: 100px;
+}
+.inimg a img:hover{
+    /* background-color: red; */
+}
+.inname a{
+    text-decoration: none;
+    color: white;
+}
+.inname a:hover{
+    color: #e58484;
+}
+.mil{
+    border: white 2px solid;
+    padding: 27px;
+    height: 200px;
+    width: 300px;
+    background-color: rgb(46, 45, 45);
+    border-radius: 23px;
+    box-shadow: 5px 5px white;
+
+}
+.mil:hover{
+    box-shadow: 0px 7px 7px 11px white;
+}
+#mil2{
+    margin-right: 230px;
+}
+#mil3{
+    margin-right: 230px;
+}
+#mil3 a img:hover{
+    /* background-color: skyblue; */
+}
+.downtwo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px 3px 3px 3px;
+    margin: 57px 3px 3px 3px;
+}

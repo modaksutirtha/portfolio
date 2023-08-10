@@ -1,0 +1,69 @@
+.top{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+}
+.about{
+    flex-direction: column;
+}
+.aboutwrite p{
+    font-size: 1.1rem;
+}
+.photo img{
+    margin: 182px 3px 3px 3px;
+}
+.aboutwritemain{
+    margin-right: 163px;
+}
+.aboutwrite{
+    margin: 23px -79px 3px 58px;
+    /* height: 383px; */
+    width: 723px;
+}
+.about::before{
+    height: 1800px;
+    margin-top: 31px;
+}
+#headab{
+    margin: 117px 189px 3px 189px;
+}
+.education{
+    flex-direction: column;
+
+}
+.edu{
+    margin: 39px 113px;
+}
+.High{
+    margin: 3px 3px 36px 3px;
+}
+.mil{
+    flex-direction: column;
+}
+#mil2 {
+    /* flex-direction: column; */
+    margin-right: 0px;
+    margin-bottom: 33px;
+}
+#mil3{
+    margin-right: 0px;
+    margin-bottom: 24px;
+}
+.uptwo{
+    flex-direction: column;
+}
+.contact::before{
+    margin-top: -118px;
+    height: 1420px;
+}
+.conhead{
+    margin: 40px 176px;
+}
+.downtwo{
+    flex-direction: column;
+    margin: 12px 3px 3px 3px;
+}
