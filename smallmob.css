@@ -30,6 +30,32 @@
 .aboutwrite p{
     font-size: 1rem;
 }
+.techfull{
+    display: flex;
+    /* flex-direction: column; */
+}
+li img{
+    height: 70px;
+    width: 70px;
+    padding: 6px;
+}
+.tech{
+    flex-direction: column;
+}
+.tech li{
+    padding: 10px;
+}
+.projectfull img{
+    height: 9rem;
+    width: 15rem;
+}
+.projectfull{
+    padding: 10px 1.2rem;
+    margin: 2px 29px;
+}
+.probutton{
+    margin: -52px 2px -24px 2px;
+}
 .edu{
     margin: 39px 21px;
     font-size: 2.2rem;
@@ -40,7 +66,10 @@
 .High{
     padding: 0px;
     width: 315px;
-    height: 411px;
+    height: 355px;
+}
+.High p{
+    margin-top: -7px;
 }
 .High .schoollogo a img{
     padding-right: 0px;
@@ -65,6 +94,11 @@
 .contact::before{
     margin-top: -172px;
 }
+.inimg a img{
+    height: 60px;
+    width: 60px;
+}
+
 .college .collegelogo a img {
     padding-right: 0px;
 }
