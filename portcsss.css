@@ -1,6 +1,7 @@
 html{
     scroll-behavior: smooth;
 }
+
 .top {
     display: flex;
     text-decoration: none;
@@ -8,22 +9,9 @@ html{
     top: 3px;
     left: 0;
     right: 0;
-    /*position: sticky;*/
-    /* background-color: black;
-    opacity: 0.8; */
-    /* border: 2px solid white;
-    border-radius: 21px; */
 }
-/* .mainportnav{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-} */
 .portnav {
     text-decoration: none;
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
 }
 
 .top ul li a {
@@ -75,9 +63,6 @@ html{
 }
 
 .logo img:hover {
-    /* height: 61px;
-    width: 61px; */
-    /* border: 4px solid white; */
     border-radius: 16px;
 }
 
@@ -122,10 +107,6 @@ li {
     text-shadow: 6px 3px #e58484;
     text-align: center;
 }
-/* .main{
-    display: flex;
-    flex-direction: column;
-} */
 .home h1:hover {
     /* background-color: white; */
     color:#a01313 ;
@@ -160,32 +141,6 @@ li {
     background-color: rgb(255, 255, 255);
     border-radius: 150px;
 }
-
-.image img {
-    /* background-color: green; */
-    /* width: 250px;
-    height: 250px; */
-    /* position: relative;
-    
-    animation-name: nayan;
-    animation-duration: 3s;
-    animation-iteration-count: infinite; */
-    /* animation-duration: 2s; */
-    /* animation-iteration-count: infinite; */
-    /* animation-direction: forward; */
-    
-}
-/* @keyframes nayan {
-    from{
-        margin-top: 0px;
-
-    }
-    to{
-        margin-top: 15px;
-
-    }
-    
-} */
 
 .image img {
     /* display: flex; */
@@ -261,6 +216,7 @@ li {
     display: flex;
     justify-content: center;
     align-items: center;
+    /* flex-direction: column; */
 }
 .aboutwrite {
     float: right;
@@ -284,6 +240,41 @@ li {
     font-size: 1.4rem;
 }
 
+.resume{
+    padding: 10px;
+    /* margin: 2px 280px; */
+    color: white;
+    background-color: rgb(46, 45, 45);
+    border-radius: 23px;
+    border: 2px solid white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.resume:hover{
+    box-shadow: 0px 5px 4px white;
+    
+}
+/*-----------------------------------------------------------------------------------------------------------*/
+.tech{
+    display: flex;
+    
+}
+.tech li{
+    padding: 50px;
+}
+li img{
+    height: 90px;
+    width: 90px;
+}
+.techfull{
+    background-color: azure;
+    border-radius: 23px;
+    box-shadow: 7px 7px #c8e7d8;
+    padding: 20px;
+}
+.techfull:hover{
+    box-shadow: 0px 7px 7px 11px #c8e7d8;
+}
 /* ---------------------------------------------------------------------------------------------------------- */
 
 .education{
@@ -323,8 +314,6 @@ li {
     height: 100%;
     background: url(aboutback.jpg) no-repeat center center/cover;
     z-index: -1;
-    /* padding: 3px 3px 3px 3px;
-    margin: 64px 3px 3px -8px; */
     opacity: 0.99;
 }
 .High{
@@ -396,6 +385,54 @@ li {
     font-family: 'Bree Serif', serif;
 }
 
+/* ------------------------------------------------------------------------------------------------------ */
+.projectfull{
+    text-align: center;
+    background-color: azure;
+    border-radius: 23px;
+    box-shadow: 7px 7px #c8e7d8;
+    padding: 5px 6.2rem;
+}
+.projectfull img{
+    margin-top: -50px;
+    border: 12px solid white;
+    height: 18rem;
+    width: 36rem;
+}
+h6,h4{
+    font-family: 'Bree Serif', serif;
+    font-size: 1.8rem;
+}
+h6{
+    margin-top: 10px;
+    background-color: #62b36f;
+    border-radius: 23px;
+    padding: 2px 20px;
+}
+h4{
+    text-align: left;
+}
+h5{
+    font-family: 'Bree Serif', serif;
+    font-size: 1.1rem;
+    margin-top: -27px;
+}
+.probutton{
+    padding: 20px;
+}
+.probutton a,.projectfull a{
+    background-color: #62b36f;
+    color: white;
+    border-radius: 9px;
+    padding: 7px 36px;
+    font-size: 1.1rem;
+    margin: 20px;
+    text-decoration: none;
+    border: 1px solid white;
+}
+.probutton a:hover{
+    box-shadow:0px 7px 7px 11px #c8e7d8 ;
+}
 
 /* ------------------------------------------------------------------------------------------------------ */
 
@@ -413,6 +450,7 @@ li {
     /* padding: 3px 3px 3px 3px;
     margin: 64px 3px 3px -8px; */
     opacity: 0.99;
+    margin-top: -20px;
     margin-left: -8px;
 }
 .conhead{
@@ -473,9 +511,7 @@ li {
 #mil3{
     margin-right: 230px;
 }
-#mil3 a img:hover{
-    /* background-color: skyblue; */
-}
+
 .downtwo{
     display: flex;
     justify-content: center;
